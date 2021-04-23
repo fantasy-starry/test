@@ -1,0 +1,192 @@
+<!DCOTYPE html>
+<html>
+	<head>
+		<meta charset="UFT-8" lang="CH"/>
+		<title>作业</title>
+		<style>
+			*{
+				margin:0px;
+				padding:0px;
+			}
+			#header img{
+				float:left;
+			}
+			#header a{
+				text-decoration:none;
+				color:black;
+				font-weight:bold;
+				float:left;
+				margin:40px 0px 0px 150px;
+			}
+			#header form{
+				margin:35px 60px 0px 130px;
+				float:left;
+			}
+			#header input{
+				width:200px;
+				height:30px;
+				border-radius:15px;
+				background:url("4.png") no-repeat 4px 4px;
+				background-size:20px;
+			}
+			#nav{
+				clear:left;
+				background:#99ddff;
+				height:300px;
+			}
+			#nav span{
+				background:black;
+				color:#ffffff;
+				padding:4px 4px 4px 10px;
+			}
+			#nav h1{
+				padding-top:80px;
+				text-align:center;
+				font-weight:normal;
+			}
+			#nav a{
+				display:block;
+				text-decoration:none;
+				color:#000000;
+				padding:40px 0px 0px 180px;
+				float:left;
+				}
+			#nav a  hr{
+				width:170px;
+				height:2px;
+				background:#000000;
+				border:none;
+				margin-top:10px;
+			}
+			
+			
+			/* 用于05.html模块引入，不引入则不需要*/
+			#left{
+				width:1300px;
+				height:360px;
+			}
+			
+			
+			/*以下代码用于不引入模块05.html所展示效果*/
+			/*#left{
+				width:300px;
+				height:210px;
+				border:1px solid #dddddd;
+				margin:15px 0px 0px 60px;
+				float:left;
+			}
+			#left h2{
+				padding:10px 0px 0px 15px;
+			}
+			#left a{
+				text-decoration:none;
+			}
+			#left img{
+				width:110px;
+				height:110px;
+				margin:10px 0px 0px 100px;
+			}
+			#left p{
+				background:#55aaff;
+				height:20px;
+				width:120px;
+				color:white;
+				font-size:11px;
+				margin:10px 10px 30px 160px;
+				padding:5px 0px 2px 16px;
+				font-weight:bold;
+				border-radius:6px;
+			}
+			#right{
+				float:left;
+				background:#98ccee;
+				width:800px;
+				height:300px;
+				border-top:2px solid #000000;
+				margin:15px 0px 10px 50px;
+			}
+			#right h3{
+				margin:60px 0px 0px 30px;
+				font-weight:normal;
+			}
+			#right p{
+				margin:40px 0px 0px 30px;
+			}
+			#right form{
+				margin:-160px 0px 0px 0px;
+				font-size:12px;
+				float:right;
+			}
+			#right form input{
+				margin:20px 0px 0px 100px;
+				padding:15px 40px;
+				border:2px solid #aaaaaa;
+			}
+			#right form a{
+				color:black;
+				font-weight:bold;
+			}*/
+			
+			
+			#footer{
+				background:black;
+				clear:both;
+				margin:5px 0px;
+			}
+			#footer p,#footer a{
+				margin:5px;
+				padding:5px 0px 2px 30px;
+				color:white;
+				font-size:12px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="header">
+			<img src="2.png" alt="MND首页" title="MND logo">
+			<a href="https://www.baidu.com">技术</a>
+			<a href="https://www.baidu.com">参考与指南</a>
+			<a href="https://www.baidu.com">反馈</a>
+			<form>
+				<input type="search" placeholder="       搜素MDN">
+			</form>
+		</div>
+		<div id="nav">
+			<h1><span>源于开发者，服务开发者。</span></h1>
+			<a href="05.html" target="frame" style="margin-left:20px">网络技术&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→<hr/></a>
+			<a href="05.html" target="frame">学习 Web 开发&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→<hr/></a>
+			<a href="05.html" target="frame">开发者工具&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→<hr/></a>
+		</div>
+		
+		
+		<!--以下代码用于不引入模块05.html所展示效果-->
+		
+		<!--<div id="left">                 
+			<h2>专为开发者构建的浏览器</h2>
+			<a href="https://www.firefox.com.cn/"><img src="3.png" alt="火狐浏览器图片" title="开发版火狐浏览器"></a>
+			<a href="https://www.firefox.com.cn/"><p>获取  Firefox 开发者版</p></a>
+		</div>
+		<div id="right">
+			<h3>学习Web开发的最佳实战</h3>
+			<p style="font-size:12px">让 MDN 将最新，最棒的内容直接投递到您的邮箱。</p>
+			<p><em>目前仅提供英文版新闻报。</em></p>
+			<form>
+				<input type="email" placeholder="you@example.com"><br/>
+				<input type="radio" value="隐私政策" name="r1">我接受 Mozilla 按照<a href="https://www.baidu,com">隐私政策</a>隐私政策所述的方式处理我的信息。<br/>
+				<input type="submit" value="立即注册                          →">
+			</form>
+		</div>-->
+		
+		
+		<!--用于05.html模块引入，不引入则不需要-->
+		<div id="left">
+			<iframe src="05.html" name="frame" width="1300px" height="400px" frameborder="0"></iframe>
+		</div>
+		<div id="footer">
+			<p> © 2005-2020 Mozilla及各贡献者。内容可按这些许可协议使用。</p>
+			<a href="https://www.baidu.com">使用条款</a> 
+			<a href="https://www.baidu.com">隐私</a> 
+			<a href="https://www.baidu.com">Cookie</a>
+		</div>
+	</body>
+</html>
